@@ -155,7 +155,7 @@ h3 { font-size: 1.6rem; line-height: 1.1; }
 .hero-palette__head strong { font-family: var(--font-serif), Georgia, serif; font-size: 1.1rem; font-weight: 500; }
 .hero-palette__swatches { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
 .hero-palette__swatches button { border: 0; background: transparent; padding: 3px; outline: 1px solid transparent; transition: outline .25s var(--ease); }
-.hero-palette__swatches button.is-active { outline-color: rgba(247,244,239,.72); }
+.hero-palette__swatches button.is-active { outline-color: rgba(247,244,239,.95); outline-width: 1px; }
 .hero-palette__swatches span { display: block; height: 30px; border: 1px solid rgba(255,255,255,.22); }
 .hero-scroll { position: absolute; right: 24px; top: 50%; transform: rotate(90deg) translateX(50%); transform-origin: right center; z-index: 2; font-size: .55rem; text-transform: uppercase; letter-spacing: .15em; display: flex; align-items: center; gap: 10px; opacity: .7; }
 .hero-scroll span { width: 45px; height: 1px; background: currentColor; }
