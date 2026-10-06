@@ -10,7 +10,7 @@ const searchItems = [
   { title: 'Shop by colour', detail: 'Explore all four final shades', href: '/shop' },
   { title: 'Care guide', detail: 'Simple care for your bamboo sheets', href: '/care-guide' },
   { title: 'Our story', detail: 'The thinking behind Aura Living', href: '/about' },
-  { title: 'Contact', detail: 'Questions, wholesale or collaborations', href: '/contact' }
+  { title: 'Contact', detail: 'Questions, wholesale or delivery', href: '/contact' }
 ];
 
 export function SearchOverlay({ open, onClose }: { open: boolean; onClose: () => void }) {

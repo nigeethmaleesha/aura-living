@@ -47,7 +47,52 @@ export function ShieldIcon({ size = 24, ...props }: IconProps) {
   return <svg {...base(size)} {...props}><path d="M12 3 5 6v5c0 5 3 8 7 10 4-2 7-5 7-10V6l-7-3Z"/><path d="m9.5 12 1.8 1.8 3.6-4"/></svg>;
 }
 export function WashIcon({ size = 24, ...props }: IconProps) {
-  return <svg {...base(size)} {...props}><path d="M4 8h16l-1 11H5L4 8Z"/><path d="M6 8 8 4h8l2 4"/><path d="M8 13c1 1 2 1 3 0s2-1 3 0 2 1 3 0"/></svg>;
+  return (
+    <svg {...base(size)} {...props}>
+      <path d="M4 9.5h16l-1.25 9H5.25L4 9.5Z"/>
+      <path d="M5.5 9.5 7.5 5h9l2 4.5"/>
+      <path d="M7 13.5c1.15 1 2.3 1 3.45 0s2.3-1 3.45 0 2.3 1 3.45 0"/>
+      <path d="M7 21h10"/>
+    </svg>
+  );
+}
+export function BleachOffIcon({ size = 24, ...props }: IconProps) {
+  return (
+    <svg {...base(size)} {...props}>
+      <path d="M12 4.5 20 19H4L12 4.5Z"/>
+      <path d="M3.5 4.5 20.5 20.5"/>
+      <path d="M20.5 4.5 3.5 20.5"/>
+    </svg>
+  );
+}
+export function DryLowIcon({ size = 24, ...props }: IconProps) {
+  return (
+    <svg {...base(size)} {...props}>
+      <rect x="4.5" y="4.5" width="15" height="15" rx=".8"/>
+      <circle cx="12" cy="12" r="5"/>
+      <circle cx="12" cy="12" r=".9" fill="currentColor" stroke="none"/>
+    </svg>
+  );
+}
+export function IronIcon({ size = 24, ...props }: IconProps) {
+  return (
+    <svg {...base(size)} {...props}>
+      <path d="M4.5 16.5h15l-2.2-7.5H10c-3.2 0-5.5 2-5.5 5.2v2.3Z"/>
+      <path d="M6 19.5h12.5"/>
+      <path d="M11 9V6.5h4.3L16 9"/>
+      <circle cx="10.5" cy="13" r=".8" fill="currentColor" stroke="none"/>
+      <circle cx="13.8" cy="13" r=".8" fill="currentColor" stroke="none"/>
+    </svg>
+  );
+}
+export function DryCleanOffIcon({ size = 24, ...props }: IconProps) {
+  return (
+    <svg {...base(size)} {...props}>
+      <circle cx="12" cy="12" r="8"/>
+      <path d="M3.5 3.5 20.5 20.5"/>
+      <path d="M20.5 3.5 3.5 20.5"/>
+    </svg>
+  );
 }
 export function InstagramIcon({ size = 20, ...props }: IconProps) {
   return <svg {...base(size)} {...props}><rect x="4" y="4" width="16" height="16" rx="4"/><circle cx="12" cy="12" r="3.5"/><path d="M17.5 6.5h.01"/></svg>;

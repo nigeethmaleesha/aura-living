@@ -13,7 +13,7 @@ export default function ShopPage() {
         <div className="container page-hero__inner">
           <span className="eyebrow">The collection</span>
           <h1>Four shades.<br/><em>One calm point of view.</em></h1>
-          <p>Explore Aura Living’s current 300TC bamboo sheet-set palette, then configure the size and bundle that suits your room.</p>
+          <p>Explore Aura Living’s 300TC bamboo sheet-set palette, then configure the size and bundle that suits your room.</p>
         </div>
       </section>
       <section className="section-pad shop-section">

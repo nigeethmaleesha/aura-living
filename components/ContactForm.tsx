@@ -10,7 +10,7 @@ export function ContactForm() {
     <form className="contact-form" onSubmit={(e: FormEvent<HTMLFormElement>)=>{e.preventDefault();setSent(true)}}>
       <div className="field-grid"><label><span>First name</span><input name="firstName" required /></label><label><span>Last name</span><input name="lastName" required /></label></div>
       <label><span>Email</span><input name="email" type="email" required /></label>
-      <label><span>What can we help with?</span><select name="topic" defaultValue=""><option value="" disabled>Select an option</option><option>Product question</option><option>Delivery</option><option>Wholesale</option><option>Creator collaboration</option><option>Other</option></select></label>
+      <label><span>What can we help with?</span><select name="topic" defaultValue=""><option value="" disabled>Select an option</option><option>Product question</option><option>Delivery</option><option>Wholesale</option><option>Other</option></select></label>
       <label><span>Message</span><textarea name="message" rows={6} required /></label>
       <button className="button button--dark" type="submit">Send enquiry <ArrowRightIcon size={18}/></button>
     </form>

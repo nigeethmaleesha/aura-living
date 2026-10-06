@@ -110,7 +110,7 @@ export default function HomePage() {
               <em>feel.</em>
             </h2>
             <p>
-              The current Aura sheet-set concept is built around 300TC bamboo, with the experience communicated through softness, breathability and texture rather than technical overload.
+              Aura Living’s 300TC bamboo sheet set is presented through softness, breathability and texture rather than technical overload.
             </p>
             <Link href="/product/bamboo-sheet-set" className="text-link text-link--light">
               Discover the sheet set <ArrowRightIcon size={17} />
@@ -146,7 +146,7 @@ export default function HomePage() {
           <div>
             <ShieldIcon />
             <strong>300TC bamboo</strong>
-            <span>The current sheet-set specification.</span>
+            <span>The Aura Living sheet-set specification.</span>
           </div>
         </div>
       </section>

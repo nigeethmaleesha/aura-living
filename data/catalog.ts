@@ -83,5 +83,5 @@ export const benefits = [
   { title: 'Naturally cooling', text: 'A lighter, calmer feel for everyday sleep.' },
   { title: 'Moisture wicking', text: 'Designed around fresh, comfortable rest.' },
   { title: 'Silky soft', text: 'A smooth, tactile finish that feels considered.' },
-  { title: '300TC bamboo', text: 'The current Aura Living sheet-set specification.' }
+  { title: '300TC bamboo', text: 'The Aura Living sheet-set specification.' }
 ];

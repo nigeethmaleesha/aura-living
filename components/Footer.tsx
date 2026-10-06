@@ -8,10 +8,10 @@ export function Footer() {
     <footer className="footer">
       <div className="footer__newsletter container">
         <div>
-          <span className="eyebrow eyebrow--light">Stay in the loop</span>
+          <span className="eyebrow">Stay in the loop</span>
           <h2>Comfort, considered.</h2>
         </div>
-<NewsletterForm />
+        <NewsletterForm />
       </div>
       <div className="footer__grid container">
         <div className="footer__brand">
@@ -22,7 +22,7 @@ export function Footer() {
         </div>
         <div><h3>Shop</h3><Link href="/shop">Sheet sets</Link><Link href="/bundles">Bundles</Link><Link href="/product/bamboo-sheet-set">Bamboo collection</Link></div>
         <div><h3>Discover</h3><Link href="/about">Our story</Link><Link href="/care-guide">Care guide</Link><Link href="/contact">Contact</Link></div>
-        <div><h3>Help</h3><Link href="/care-guide">Product care</Link><Link href="/contact">Delivery questions</Link><Link href="/contact">Collaborations</Link></div>
+        <div><h3>Help</h3><Link href="/care-guide">Product care</Link><Link href="/contact">Delivery questions</Link></div>
       </div>
       <div className="footer__bottom container"><span>© 2026 Aura Living.</span><span>The Art of Everyday Comfort.</span></div>
     </footer>

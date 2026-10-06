@@ -24,7 +24,7 @@ export default async function ProductPage({ searchParams }: { searchParams: Prom
       </section>
       <section className="product-editorial section-pad">
         <div className="container product-editorial__grid">
-          <Reveal className="product-editorial__copy"><span className="eyebrow">Inside the set</span><h2>Simple, complete,<br/>beautifully considered.</h2><p>Each sheet set contains one fitted sheet, one flat sheet and two pillowcases. The current collection is offered in Queen and King, across Cloud, Sandstone, Olive Grove and Merlot.</p><dl><div><dt>Material direction</dt><dd>100% Bamboo Fibre</dd></div><div><dt>Specification</dt><dd>300TC</dd></div><div><dt>Sizes</dt><dd>Queen · King</dd></div><div><dt>Colours</dt><dd>4 final shades</dd></div></dl></Reveal>
+          <Reveal className="product-editorial__copy"><span className="eyebrow">Inside the set</span><h2>Simple, complete,<br/>beautifully considered.</h2><p>Each sheet set contains one fitted sheet, one flat sheet and two pillowcases. The collection is offered in Queen and King, across Cloud, Sandstone, Olive Grove and Merlot.</p><dl><div><dt>Material direction</dt><dd>100% Bamboo Fibre</dd></div><div><dt>Specification</dt><dd>300TC</dd></div><div><dt>Sizes</dt><dd>Queen · King</dd></div><div><dt>Colours</dt><dd>4 shades</dd></div></dl></Reveal>
           <Reveal className="product-editorial__image" delay={100}><Image src="/images/packaging-lifestyle.webp" alt="Aura Living bamboo sheet set packaging with folded bedding" fill sizes="(max-width: 900px) 100vw, 48vw" /></Reveal>
         </div>
       </section>
